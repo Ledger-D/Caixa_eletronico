@@ -1,5 +1,5 @@
 (function () {
-    alert("este projeto ainda esta na versao beta entao coloque apenas valores com o final '0' ou '5'  BY: DANIEL LEDGER ")
+    alert(".  testando.   este projeto ainda esta na versao beta entao coloque apenas valores com o final '0' ou '5'  BY: DANIEL LEDGER ")
     var nota_5 = 5
     var nota_10 = 10
     var nota_20 = 20
@@ -21,7 +21,7 @@
     })
     function contarNota(e) {
         var sacar = 0
-  var sobrou =0
+   var sobrou = 0
     var cont_5 = 0
     var cont_10 = 0
     var cont_20 = 0
@@ -50,8 +50,8 @@
             }
 
            
-            else if (valor_final == 0 || valor_final < 5){
-                sobrou= valor_final
+            else if ( valor_final < 5){
+                sobrou = valor_final
                 break
             }
         }
