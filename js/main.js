@@ -1,4 +1,4 @@
-(function () {
+ok(function () {
     alert("este projeto ainda esta na versao beta entao coloque apenas valores com o final '0' ou '5'  BY: DANIEL LEDGER ")
     var nota_5 = 5
     var nota_10 = 10
@@ -60,7 +60,7 @@
         }
 
 
-        $display.innerHTML = "valor a sacar: " + e + " <br> notas de 50 reais: " + cont_50 + "<br>notas de 20 reais:" + cont_20 + "<br>nota de 10 reais: " + cont_10 + "<br>nota de 5 reais: " + cont_5 +"<br>Valores indisponível para saque" + sobrou
+        $display.innerHTML = "valor a sacar: " + e + " <br> notas de 50 reais: " + cont_50 + "<br>notas de 20 reais:" + cont_20 + "<br>nota de 10 reais: " + cont_10 + "<br>nota de 5 reais: " + cont_5 +"<br>Valores indisponível para saque: " + sobrou
 
     }
 
