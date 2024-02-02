@@ -34,7 +34,7 @@
                 valor_final -= nota_50
 
             }
-            else if (valor_final >= nota_20 && valor_final <0) {
+            else if (valor_final >= nota_20 && valor_final !=0) {
                 cont_20 += 1
                 valor_final -= nota_20
 
