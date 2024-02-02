@@ -54,7 +54,7 @@
             sobrou= valor_final
 
 }
-            else if (valor_final == 0) {
+            else if (valor_final == 0 || valor_final < 0) {
                 break
             }
         }
