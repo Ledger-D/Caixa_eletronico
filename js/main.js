@@ -1,4 +1,4 @@
-ok(function () {
+(function () {
     alert("este projeto ainda esta na versao beta entao coloque apenas valores com o final '0' ou '5'  BY: DANIEL LEDGER ")
     var nota_5 = 5
     var nota_10 = 10
