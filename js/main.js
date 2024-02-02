@@ -21,6 +21,7 @@
     })
     function contarNota(e) {
         var sacar = 0
+  var sobrou =0
     var cont_5 = 0
     var cont_10 = 0
     var cont_20 = 0
@@ -33,7 +34,7 @@
                 valor_final -= nota_50
 
             }
-            else if (valor_final >= nota_20 && valor_final != 0) {
+            else if (valor_final >= nota_20 && valor_final <0) {
                 cont_20 += 1
                 valor_final -= nota_20
 
@@ -48,12 +49,18 @@
                 valor_final -= nota_5
             }
 
+           else if(valor_final < 0){
 
+            sobrou= valor_final
+
+}
             else if (valor_final == 0) {
                 break
             }
         }
-        $display.innerHTML = "valor a sacar: " + e + " <br> notas de 50 reais: " + cont_50 + "<br>notas de 20 reais:" + cont_20 + "<br>nota de 10 reais: " + cont_10 + "<br>nota de 5 reais: " + cont_5
+
+
+        $display.innerHTML = "valor a sacar: " + e + " <br> notas de 50 reais: " + cont_50 + "<br>notas de 20 reais:" + cont_20 + "<br>nota de 10 reais: " + cont_10 + "<br>nota de 5 reais: " + cont_5 +"Valores indisponível para saque" + sobrou
 
     }
 
