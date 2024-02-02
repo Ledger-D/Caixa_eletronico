@@ -49,12 +49,9 @@
                 valor_final -= nota_5
             }
 
-           else if(valor_final < 0){
-
-            sobrou= valor_final
-
-}
-            else if (valor_final == 0 || valor_final < 0) {
+           
+            else if (valor_final == 0 || valor_final < 5){
+                sobrou= valor_final
                 break
             }
         }
