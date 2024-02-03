@@ -1,1 +1,1 @@
-var btn-9= queryselector
+    var btn-9= document.querySelector(".btn-9")
